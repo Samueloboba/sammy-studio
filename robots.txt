@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://sammy-studio-ten.vercel.app/sitemap.xml

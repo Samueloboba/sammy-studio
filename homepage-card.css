@@ -1,0 +1,9 @@
+/* Homepage feature card for Ken Olsen Auto Repair */
+.case-card-link{display:block;color:inherit;text-decoration:none}
+.ken-olsen-card-visual{background:radial-gradient(circle at 75% 40%,#1a5790 0,transparent 35%),linear-gradient(145deg,#101f33,#070b14)}
+.ken-olsen-card-art{width:82%;min-height:230px;padding:35px;border:1px solid #8bcaff42;border-radius:12px;background:linear-gradient(120deg,#081321e8,#0d2038d9);box-shadow:0 20px 55px #0007;display:flex;flex-direction:column;justify-content:center;gap:17px}
+.ken-olsen-card-art span,.ken-olsen-card-art small{font:9px 'DM Mono',monospace;letter-spacing:.15em;color:#8dbde9}
+.ken-olsen-card-art strong{font-size:clamp(27px,4vw,48px);line-height:.98;letter-spacing:-.06em}
+.ken-olsen-card-art em{font-style:normal;color:#75baff}
+.case-card-link:hover .ken-olsen-card-visual{border-color:#55aaff88;box-shadow:0 15px 45px #1464c020}
+@media(max-width:760px){.ken-olsen-card-art{width:90%;min-height:190px;padding:23px}}

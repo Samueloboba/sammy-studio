@@ -1,0 +1,29 @@
+/* Ken Olsen Auto Repair — Sammy Studio case study */
+.case-study{max-width:1240px;margin:auto;padding:78px 34px 30px}
+.case-hero{max-width:950px;margin:0 auto;text-align:center}
+.case-kicker{margin:28px 0 0;color:#8ba8d0;font:9px 'DM Mono',monospace;letter-spacing:.18em}
+.case-hero h1{font-size:clamp(58px,9vw,108px);line-height:.92;letter-spacing:-.075em;margin:22px 0}
+.case-intro{max-width:650px;margin:0 auto;color:var(--muted);font-size:14px;line-height:1.9}
+.case-actions{display:flex;justify-content:center;align-items:center;gap:28px;flex-wrap:wrap;margin:30px 0 52px}
+.case-preview{max-width:900px;min-height:360px;margin:0 auto;border:1px solid rgba(120,190,255,.25);border-radius:16px;overflow:hidden;text-align:left;background:radial-gradient(circle at 75% 35%,rgba(43,139,239,.25),transparent 32%),linear-gradient(145deg,#10243d,#070d18 70%);box-shadow:0 25px 75px #0006}
+.case-preview-top{height:42px;display:flex;align-items:center;gap:7px;padding:0 17px;border-bottom:1px solid #ffffff17;background:#ffffff08}
+.case-preview-top>span{width:7px;height:7px;border-radius:50%;background:#ff7777}.case-preview-top>span:nth-child(2){background:#ffd166}.case-preview-top>span:nth-child(3){background:#55d98b}
+.case-preview-top small{margin-left:12px;color:#8ba0bd;font:9px 'DM Mono',monospace}
+.case-preview-body{min-height:318px;padding:55px 9%;display:flex;flex-direction:column;justify-content:center;position:relative;overflow:hidden}
+.case-preview-body:after{content:"";position:absolute;width:260px;height:260px;right:10%;top:50%;transform:translateY(-50%);border-radius:50%;border:1px solid #73baff55;box-shadow:0 0 0 22px #55aaff0b,0 0 0 48px #55aaff08,0 0 80px #278ce755}
+.preview-label{color:#8bcaff;font:9px 'DM Mono',monospace;letter-spacing:.18em}
+.case-preview-body strong{z-index:1;margin:18px 0;font-size:clamp(34px,6vw,66px);line-height:.95;letter-spacing:-.06em}
+.case-preview-body strong em{font-style:normal;color:#72baff}
+.preview-rule{width:85px;height:2px;background:#55aaff;margin:10px 0 15px}
+.case-preview-body>small{color:#8ba0bd;font:9px 'DM Mono',monospace;letter-spacing:.12em}
+.case-facts{display:grid;grid-template-columns:repeat(4,1fr);gap:16px;margin:55px auto 85px;padding:24px 0;border-top:1px solid var(--line);border-bottom:1px solid var(--line)}
+.case-facts div{display:flex;flex-direction:column;gap:9px}.case-facts span,.case-deliverables article>span{color:#75baff;font:9px 'DM Mono',monospace;letter-spacing:.15em}.case-facts strong{font-size:12px}
+.case-section{padding:58px 0;border-bottom:1px solid var(--line)}
+.case-section h2,.case-outro h2{font-size:clamp(38px,5.5vw,66px);line-height:1.02;letter-spacing:-.065em;margin:16px 0 22px}
+.case-copy{max-width:680px;color:var(--muted);font-size:13px;line-height:2}
+.case-two-col{display:grid;grid-template-columns:1fr 1fr;gap:60px;align-items:center}
+.case-deliverables{display:grid;grid-template-columns:repeat(3,1fr);gap:20px;margin-top:30px}
+.case-deliverables article{padding:24px;border:1px solid var(--line);border-radius:10px;background:#0d1422}
+.case-deliverables h3{font-size:16px;margin:22px 0 10px}.case-deliverables p{color:var(--muted);font-size:11px;line-height:1.8}
+.case-outro{text-align:center;padding:90px 0 100px}.case-outro .case-copy{margin:0 auto 25px}.case-footer{max-width:1172px;margin:auto;padding:25px 0;border-top:1px solid var(--line);display:flex;justify-content:space-between;align-items:center;gap:16px}.case-footer>span{font:9px 'DM Mono',monospace;color:#73849d}.case-footer>a:last-child{font-size:10px;color:#b9c5d8;text-decoration:none}
+@media(max-width:760px){.case-study{padding:58px 22px 20px}.case-preview{min-height:300px}.case-preview-body{min-height:258px;padding:35px 7%}.case-preview-body:after{width:150px;height:150px;right:-8%}.case-facts{grid-template-columns:1fr 1fr;margin:38px auto 55px}.case-two-col{grid-template-columns:1fr;gap:8px}.case-deliverables{grid-template-columns:1fr}.case-outro{padding:70px 0}.case-footer{margin:0 22px;flex-wrap:wrap}.case-footer>span{order:3;width:100%}.case-actions{gap:18px}}
